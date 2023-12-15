@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3003</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- das ist die Navbar -->
+    <nav class="navbar navbar-expand-lg p-4">
+        <a class="navbar-brand" href="#">
+            <img id="logo" src="/static/Pics/logo-black.png" width="130px">
+        </a>
+        <button class="navbar-toggler navbar-toggler-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active text-dark" href="#">HOME</a>
+                <a class="nav-item nav-link text-dark" href="">INFO</a>
+                <a class="nav-item nav-link text-dark" href="">COLLECTION</a>
+                <a class="nav-item nav-link text-dark" href="">COLLECTION</a>
+                <a class="nav-item nav-link text-dark" href="">COLLECTION</a>
+            </div>
+        </div>
+    </nav>
+</head>
+<body>
+    <div id="startImage">
+        <!-- Text sieht man auf der Seite nicht, dient nur dazu damit man das Bild sehen kann, habe keinen anderen Weg gefunden das sonst noch zu umgehen -->
+        <p id="imageFiller3">o rerum nostrum eum totam tenetur ea soluta quibusdam, error odit ipsum tempore. Eos reprehenderit libero esse aliquid quod beatae aliquam alias temporibus sed nisi fuga provident officiis id maiores 
+            nesciunt minus ut in, voluptatem ipsum labore. Obcaecati, facere aliquam earum dolorem, aperiam laudantium autem similique quibusdam assumenda libero blanditiis. Cum voluptatibus laudantium, assumenda 
+            suscipit delectus nesciunt ea id ut natus doloremque omnis, officiis in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quos nobis veniam atque dicta amet dolore quibusdam repellendus obcaecati
+             illum voluptatem mollitia officia quis, dolores delectus reiciendis odio. Facilis, blanditiis? Lorem ipsum dolor sit  amet consectetur adipisicing elit. Provident explicabo 
+             beatae velit minima harum doloribus
+              qui, tenetur veniam facilis corrupti placeat, earum impedit! Delectus, ducimus  iste dolores molestiae magnam mollitia iusto itaque explicabo, molestias et, eum nobis commodi alias eaque unde iure impedit. 
+        </p>
+        <p id="imageFiller2">
+            esciunt minus ut in, voluptatem ipsum labore. Obcaecati, facere aliquam earum dolorem, aperiam laudantium autem similique quibusdam assumenda libero blanditiis. Cum voluptatibus
+             delectus nesciunt ea id ut  natus doloremque omnis, officiis in? Lorem <h1 id="title">Finance with 3003</h1> ipsum dolor sit amet consectetur adipisicing elit. Ut quos nobis veniam
+             am atque dicta amet dolore quibusdam am atque dicta amet dolore quibusdam am atque dicta amet dolore quibusdam am atque dicta amet dolore quibusdam am atque dicta amet dolore quibusdam 
+        </p>
+    </div>    
+    <div class="sector2 ">
+        <div id="title2" class="mt-5 text-center">
+            <h1>Enhance Your Financial Knowledge!</h1>
+            <h5>Without Spending a Single Penny.</h5>
+        </div>
+        <div class="container d-flex justify-content-center pt-5 ps-3 me-5">
+            <div class="infographic col">
+                <img src="/static/Pics/chart_infographic.png" alt="infographic Chart" width="70%">
+                <h3>Learn how to </h3>
+            </div>
+            <div class="infographic col">
+                <img src="/static/Pics/chart_infographic.png" alt="infographic Chart" width="70%">
+            </div>
+            <div class="infographic col">
+                <img src="/static/Pics/chart_infographic.png" alt="infographic Chart" width="70%">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+</html> 
